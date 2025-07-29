@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="HomeIcon" src="project://database/Assets/UI%20Toolkit/Templates/HomeIcon.uxml?fileID=9197481963319205126&amp;guid=f2b96356e2b9ca545bdb9eb8fa07de98&amp;type=3#HomeIcon" />
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/MainMenuTheme.uss?fileID=7433441132597879392&amp;guid=23e32c5fe012e634c8aeaefeb698dfb5&amp;type=3#MainMenuTheme" />
+    <engine:VisualElement style="flex-grow: 1;">
+        <engine:Label text="UR DEAD LOL" class="title-text" />
+        <engine:Button text="Main Menu" name="MainMenuButton" class="title-button">
+            <engine:Instance template="HomeIcon" style="padding-left: 35%;" />
+        </engine:Button>
+    </engine:VisualElement>
+</engine:UXML>

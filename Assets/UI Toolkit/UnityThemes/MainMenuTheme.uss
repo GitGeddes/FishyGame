@@ -1,0 +1,88 @@
+.title-text {
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+    -unity-font-style: bold;
+    font-size: 48px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    -unity-font-definition: resource('kenney_kenney-fonts/Fonts/Kenney Mini Square');
+}
+
+.title-button {
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-size: 32px;
+    -unity-font-style: bold;
+    background-color: rgb(204, 158, 121);
+    color: rgb(30, 19, 41);
+    border-top-color: rgb(231, 116, 49);
+    border-left-color: rgb(231, 116, 49);
+    border-right-color: rgb(231, 116, 49);
+    border-bottom-color: rgb(231, 116, 49);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    -unity-font-definition: resource('kenney_kenney-fonts/Fonts/Kenney Mini Square');
+}
+
+.title-button:hover {
+    background-color: rgb(231, 116, 49);
+}
+
+.title-button:active {
+    background-color: rgb(168, 85, 36);
+}
+
+.settings-toggle {
+    font-size: 32px;
+    -unity-font-style: bold;
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    background-color: rgb(204, 158, 121);
+    -unity-font-definition: resource('kenney_kenney-fonts/Fonts/Kenney Mini Square');
+    padding-left: 5%;
+}
+
+.settings-dropdown {
+    margin-top: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    font-size: 32px;
+    -unity-font-style: bold;
+    background-color: rgb(204, 158, 121);
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-left-color: rgb(231, 116, 49);
+    border-right-color: rgb(231, 116, 49);
+    border-top-color: rgb(231, 116, 49);
+    border-bottom-color: rgb(231, 116, 49);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -unity-font-definition: resource('kenney_kenney-fonts/Fonts/Kenney Mini Square');
+}
+
+.button-icon {
+    align-self: flex-start;
+    width: 64px;
+    height: 64px;
+}

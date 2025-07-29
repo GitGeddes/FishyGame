@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="PauseView" src="project://database/Assets/UI%20Toolkit/Panels/PauseView.uxml?fileID=9197481963319205126&amp;guid=1fdc6b512a0a45a43b4d419d0f594578&amp;type=3#PauseView" />
+    <ui:Template name="SettingsView" src="project://database/Assets/UI%20Toolkit/Panels/SettingsView.uxml?fileID=9197481963319205126&amp;guid=d86dd8d9835667e459c6915cd370ebef&amp;type=3#SettingsView" />
+    <ui:Template name="WinScreen" src="project://database/Assets/UI%20Toolkit/Panels/WinScreen.uxml?fileID=9197481963319205126&amp;guid=4aa906476460b5c4d9787b271d975254&amp;type=3#WinScreen" />
+    <ui:Template name="DeathScreen" src="project://database/Assets/UI%20Toolkit/Panels/DeathScreen.uxml?fileID=9197481963319205126&amp;guid=88d76cf0d67f01042b5572e5c94014ad&amp;type=3#DeathScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/UnityThemes/Theme.uss?fileID=7433441132597879392&amp;guid=184201364805a8340a85a3b948dd8332&amp;type=3#Theme" />
+    <ui:VisualElement name="HUD">
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:VisualElement name="Images" style="flex-grow: 1; flex-direction: column; width: 512px;">
+                <ui:VisualElement name="TopRow" style="flex-grow: 1; flex-direction: row;" />
+                <ui:VisualElement name="MidRow" style="flex-grow: 1; flex-direction: row;" />
+                <ui:VisualElement name="BottomRow" style="flex-grow: 1; flex-direction: row;" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label text="Fish Eaten: 0" name="ScoreText" class="score-text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Instance template="PauseView" name="PauseView" style="display: none; flex-grow: 1;" />
+    <ui:Instance template="SettingsView" name="SettingsView" style="display: none;" />
+    <ui:Instance template="WinScreen" name="WinScreen" style="display: none;" />
+    <ui:Instance template="DeathScreen" name="DeathScreen" style="display: none;" />
+</ui:UXML>
